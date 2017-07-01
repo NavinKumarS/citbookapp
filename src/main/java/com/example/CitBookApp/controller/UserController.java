@@ -1,4 +1,4 @@
-package com.example.CitBookApp.revature.controller;
+package com.example.CitBookApp.controller;
 
 import java.util.List;
 
@@ -14,10 +14,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.example.CitBookApp.revature.service.BookService;
-import com.example.CitBookApp.revature.service.UserService;
-import com.example.CitBookApp.revature.user.User;
-import com.example.CitBookApp.revature.user.Book;
+import com.example.CitBookApp.service.BookService;
+import com.example.CitBookApp.service.UserService;
+import com.example.CitBookApp.user.Book;
+import com.example.CitBookApp.user.User;
+
+
 
 @Controller
 @RequestMapping("bookuser")

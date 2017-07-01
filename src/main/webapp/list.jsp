@@ -2,13 +2,24 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <title>List All Orders</title>
 <style>
 </style>
 </head>
 <body>
-	
+	<div class="container">
+<h2>Rounded Corners</h2>
+  <p>The .img-rounded class adds rounded corners to an image (not available in IE8):</p>            
+  <img src="cinqueterre.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236">
+  <h2>welcome to citbookapp</h2>
+  <h4>list of books</h4>
+   <button><a href="logout" class="btn btn-info" role="button">logout</a></button> 
+             
+  <table class="table table-bordered">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12">

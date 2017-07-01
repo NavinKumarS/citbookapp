@@ -1,4 +1,4 @@
-package com.example.CitBookApp.revature.controller;
+package com.example.CitBookApp.controller;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -14,9 +14,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.example.CitBookApp.revature.service.OrderService;
-import com.example.CitBookApp.revature.user.Order;
-import com.example.CitBookApp.revature.user.User;
+import com.example.CitBookApp.service.OrderService;
+import com.example.CitBookApp.user.Order;
+import com.example.CitBookApp.user.User;
+
+
 
 
 	@Controller

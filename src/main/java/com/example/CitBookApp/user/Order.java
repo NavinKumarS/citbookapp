@@ -1,4 +1,4 @@
-package com.example.CitBookApp.revature.user;
+package com.example.CitBookApp.user;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

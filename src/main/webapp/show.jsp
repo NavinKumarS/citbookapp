@@ -3,14 +3,26 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<title>show</title>
 </head>
 <body>
-	welcome to cit bookapp
-	<h4>List of Books</h4>
+<div class="container">
+<img src="../assets/images/images.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236">
+  <h2>welcome to citbookapp</h2>
+  <h4>list of books</h4>
+   <button><a href="logout" class="btn btn-info" role="button">logout</a></button> 
+              
+  <table class="table table-bordered">
+  
+	
+	
 		<form action="../orderitems/addtocart" method="POST">
-	<table border = 1>
+<thead>
 		<tr>
 			<th>id</th>
 			<th>title</th>
@@ -23,8 +35,8 @@
 			
 			
 		</tr>
-		 
-		
+		 </thead>
+		<tbody>
 			<tr>
 				<td>${selectedbook.id}</td>
 				<td>${selectedbook.name}</td>
@@ -51,8 +63,9 @@
 										
 									
 			</tr>
-										
+		</tbody>
+		</table>								
 			
-			
+		</div>	
 </body>
 </html>

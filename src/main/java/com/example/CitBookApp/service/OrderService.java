@@ -1,4 +1,4 @@
-package com.example.CitBookApp.revature.service;
+package com.example.CitBookApp.service;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.example.CitBookApp.UserRepository.OrderItemRepository;
 import com.example.CitBookApp.UserRepository.OrderRepository;
-import com.example.CitBookApp.revature.user.Order;
+import com.example.CitBookApp.user.Order;
 
 
 

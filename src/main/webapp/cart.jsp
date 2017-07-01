@@ -8,12 +8,22 @@
 
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <title>List</title>
 <style>
 </style>
 </head>
 <body>
+
+<div class="container">
+
+  <h2>welcome to citbookapp</h2>
+   <button><a href="../bookuser/logout" class="btn btn-info" role="button">logout</a></button> 
+             
+  <table class="table table-bordered">
 	
 	<div class="content">
 		<div class="container-fluid">
@@ -21,7 +31,7 @@
 			<div class="row">
 
 				<div class="col-md-8">
-					<h5>My Cart</h5>
+					<h2>My Cart</h2>
 					<c:if test="${empty MY_CART_ITEMS || MY_CART_ITEMS.orderItems.isEmpty()}">
 						<img src="../assets/images/empty-cart.png" width="300" />
 						<h5>Your Shopping Cart is empty</h5>
@@ -31,7 +41,7 @@
 						<table border="1" class="table table-bordered">
 							<thead>
 								<tr>
-									<th width="10%">#</th>
+									<th width="10%">id</th>
 									<th>Item Name</th>
 									<th>Quantity</th>
 									<th>Total Cost</th>

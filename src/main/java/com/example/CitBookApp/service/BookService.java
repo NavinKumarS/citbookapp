@@ -1,4 +1,4 @@
-package com.example.CitBookApp.revature.service;
+package com.example.CitBookApp.service;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.example.CitBookApp.UserRepository.BookRepository;
-import com.example.CitBookApp.revature.user.Book;
+import com.example.CitBookApp.user.Book;
 
 
 @Service
